@@ -3,7 +3,7 @@
 
     <div class="row gap-3">
 
-      <div class="col-3" v-for="(elem, index) in infoApi">
+      <div class="col-3" v-for="(elem, index) in infoApi" :key="index">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">{{ elem.name }}</h5>
